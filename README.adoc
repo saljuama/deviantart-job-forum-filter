@@ -1,2 +1,7 @@
 = DeviantArt Job Forum Filter
 
+Application to retrieve and filter all the forum posts in the "Job Offers" section of DeviantArt forum.
+
+== Current state
+
+Able to read all the posts of the forum in all pages, except for the content of the post itself
