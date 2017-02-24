@@ -16,18 +16,15 @@
 
 package org.saljuama.utils.dajff
 
-import org.junit.Test
-import org.junit.runner.RunWith
-import org.junit.runners.JUnit4
+import org.jsoup.Jsoup
+import org.jsoup.nodes.Document
 
 /**
  * @author saljuama
  */
-@RunWith(JUnit4.class)
-class ApplicationTest {
+class HttpUtils {
 
-    @Test
-    void nothing() throws Exception {
-
+    static Optional<Document> get(String url) {
+        Optional.ofNullable(Jsoup.connect(url).get())
     }
 }

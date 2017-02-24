@@ -22,5 +22,7 @@ package org.saljuama.utils.dajff
 class Application {
 
     static void main(String[] args) {
+        DeviantArtForum forum = new DeviantArtForum()
+        forum.getJobOfferPosts()
     }
 }

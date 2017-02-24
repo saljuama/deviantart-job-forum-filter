@@ -27,6 +27,8 @@ dependencies {
     compile 'org.codehaus.groovy:groovy-all:2.4.8'
     compile 'org.jsoup:jsoup:1.10.2'
     testCompile 'junit:junit:4.12'
+    testCompile 'org.mockito:mockito-all:1.10.19'
+    testCompile 'com.github.tomakehurst:wiremock:2.5.1'
 }
 
 task wrapper(type: Wrapper) {
